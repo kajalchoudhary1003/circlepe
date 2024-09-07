@@ -14,14 +14,72 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* for section2 */
+.customList {
+  list-style: none; /* Remove default bullets */
+ 
+}
+
+.customList li::before {
+  content: "";
+  display: inline-block;
+  width: 14px; /* Bullet point size */
+  height: 14px; /* Bullet point size */
+  border-radius: 50%; /* Makes the bullet point circular */
+  background-color: #d9d9d9; /* Bullet point color */
+  margin-right: 0.5em; /* Space between bullet and text */
+}
+
+/* Special styling for the first bullet point */
+.customList li:nth-child(1)::before {
+  background-color: yellow; /* Bullet point color for the first item */
+}
+
+
+/* for section 3 */
+.customList3 {
+  list-style: none; /* Remove default bullets */
+ 
+}
+
+.customList3 li::before {
+  content: "";
+  display: inline-block;
+  width: 14px; /* Bullet point size */
+  height: 14px; /* Bullet point size */
+  border-radius: 50%; /* Makes the bullet point circular */
+  background-color: #d9d9d9; /* Bullet point color */
+  margin-right: 0.5em; /* Space between bullet and text */
+}
+
+/* Special styling for the first bullet point */
+.customList3 li:nth-child(2)::before {
+  background-color: yellow; /* Bullet point color for the first item */
+}
+
+/* section 4 */
+.customList4 {
+  list-style: none; /* Remove default bullets */
+  padding-left: 1.5rem;
+ 
+}
+
+.customList4 li::before {
+  content: "";
+  display: inline-block;
+  width: 8px; /* Bullet point size */
+  height: 8px; /* Bullet point size */
+  border-radius: 50%; /* Makes the bullet point circular */
+  background-color: #d9d9d9; /* Bullet point color */
+  margin-right: 0.5em; /* Space between bullet and text */
 }

@@ -30,21 +30,21 @@ function Section3({currentSection}) {
               className={`${league.className} details flex flex-col space-y-8 2xl:space-y-28 justify-center`}
             >
               <div>
-                <h1 className="text-primary font-medium text-[64px] 2xl:text-[180px] ">
+                <h1 className="text-primary font-medium lg:text-[64px] 2xl:text-[180px] ">
                   Step <span className="text-secondary">1</span>
                 </h1>
               </div>
 
-              <div className="h-[2px] w-[84px] 2xl:h-[7px] 2xl:w-[220px] bg-accent-blue -mt-3"></div>
-              <div className="para text-secondary text-2xl 2xl:text-[60px]">
+              <div className="lg:h-[2px] w-[84px] 2xl:h-[7px] 2xl:w-[220px] bg-accent-blue lg:-mt-3"></div>
+              <div className="para text-secondary lg:text-2xl 2xl:text-[60px]">
                 <ul className="customList3">
-                  <li className="text-primary mb-5 2xl:mb-16" >
+                  <li className="text-primary lg:mb-5 2xl:mb-16" >
                     Tenant selects the property
                   </li>
-                  <li className="text-[#fcf1b6] -mb-2 2xl:mb-5" >
+                  <li className="text-[#fcf1b6] lg:-mb-2 2xl:mb-5" >
                     Tenant selects flexible rent tenure &{" "}
                   </li>
-                  <span className="text-[#fcf1b6] ml-7 2xl:ml-12">
+                  <span className="text-[#fcf1b6] lg:ml-7 2xl:ml-12">
                     corresponding amount
                   </span>
                 </ul>
@@ -56,14 +56,14 @@ function Section3({currentSection}) {
                 alt="section1 image"
                 width={390}
                 height={690}
-                className="rounded-tl-[64px] xl:w-[540px] xl:rounded-tl-[92px] xl:rounded-tr-[92px] xl:h-[1050px] rounded-tr-[64px] 2xl:w-[1000px] 2xl:h-[1900px] 2xl:rounded-tl-[170px] 2xl:rounded-tr-[170px]"
+                className="rounded-tl-[64px] lg:rounded-tl-[70px] lg:rounded-tr-[70px] lg:w-[420px] lg:h-[790px] xl:w-[540px] xl:rounded-tl-[92px] xl:rounded-tr-[92px] xl:h-[1050px] rounded-tr-[64px] 2xl:w-[1000px] 2xl:h-[1900px] 2xl:rounded-tl-[170px] 2xl:rounded-tr-[170px]"
               />
             </div>
           </div>
         </div>
         <div className="slider basis-1/6 flex pl-8 items-center">
           {/* Slider Track */}
-          <div className="relative 2xl:w-[4px] 2xl:h-[450px] w-[2px] h-[283px] bg-primary rounded-full">
+          <div className="relative 2xl:w-[4px] lg:h-[200px] 2xl:h-[450px] w-[2px] h-[283px] bg-primary rounded-full">
             {/* Slider Fill */}
             <div
               className="absolute top-0 left-0 w-full bg-blue-500 rounded-full"
@@ -77,7 +77,7 @@ function Section3({currentSection}) {
           </div>
         </div>
         {/* Overlay layer for the arrow image */}
-        <div className="absolute top-1/2 left-1/4 transform xl:-translate-x-8 xl:-translate-y-24 2xl:translate-x-14 2xl:-translate-y-16 -translate-y-32 translate-x-24 z-10">
+        <div className="absolute top-1/2 left-1/4 transform lg:translate-x-1 lg:-translate-y-20 xl:-translate-x-8 xl:-translate-y-24 2xl:translate-x-14 2xl:-translate-y-16 -translate-y-32 translate-x-24 z-10">
           <Image
             src="/images/d3.svg"
             width={380}

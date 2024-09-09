@@ -30,15 +30,15 @@ function Section4({currentSection}) {
               className={`${league.className} 2xl:space-y-28 details flex flex-col space-y-8 justify-center`}
             >
               <div>
-                <h1 className="text-primary font-medium text-[64px] 2xl:text-[180px] ">
+                <h1 className="text-primary font-medium lg:text-[64px] 2xl:text-[180px] ">
                   Step <span className="text-secondary">2</span>
                 </h1>
               </div>
 
-              <div className="h-[2px] w-[84px] 2xl:h-[7px] 2xl:w-[220px] bg-accent-blue -mt-3"></div>
-              <div className="para text-secondary text-2xl 2xl:text-[60px]">
+              <div className="h-[2px] w-[84px] 2xl:h-[7px] 2xl:w-[220px] bg-accent-blue lg:-mt-3"></div>
+              <div className="para text-secondary lg:text-2xl 2xl:text-[60px]">
                 <ul className="customList">
-                  <li className="text-[#fcf1b6] mb-5 2xl:mb-14" >
+                  <li className="text-[#fcf1b6] lg:mb-5 2xl:mb-14" >
                     Tenant selects Pay with Circle enabling:
                   </li>
                 
@@ -46,8 +46,8 @@ function Section4({currentSection}) {
                 </ul>
                 <span>
                   <ul className="customList4">
-                    <li className="-mb-2 2xl:mb-8">Zero Security deposit move-in</li>
-                    <li className="-mb-2 2xl:mb-8">Reduced rent offer</li>
+                    <li className="lg:-mb-2 2xl:mb-8">Zero Security deposit move-in</li>
+                    <li className="lg:-mb-2 2xl:mb-8">Reduced rent offer</li>
                     <li>3 months salary cover</li>
                   </ul>
                 </span>
@@ -59,14 +59,14 @@ function Section4({currentSection}) {
                 alt="section1 image"
                 width={400}
                 height={690}
-                className="rounded-bl-[66px] rounded-br-[66px] xl:w-[560px] xl:rounded-bl-[95px] xl:rounded-br-[95px] xl:h-[980px] 2xl:w-[1000px] 2xl:h-[1800px] 2xl:rounded-bl-[180px] 2xl:rounded-br-[180px]"
+                className="rounded-bl-[66px] lg:rounded-bl-[72px] lg:rounded-br-[72px] lg:h-[740px] lg:w-[450px] rounded-br-[66px] xl:w-[560px] xl:rounded-bl-[95px] xl:rounded-br-[95px] xl:h-[980px] 2xl:w-[1000px] 2xl:h-[1800px] 2xl:rounded-bl-[180px] 2xl:rounded-br-[180px]"
               />
             </div>
           </div>
         </div>
         <div className="slider basis-1/6 flex pl-8 items-center">
           {/* Slider Track */}
-          <div className="relative 2xl:w-[4px] 2xl:h-[450px] w-[2px] h-[283px] bg-primary rounded-full">
+          <div className="relative 2xl:w-[4px] lg:h-[200px] 2xl:h-[450px] w-[2px] h-[283px] bg-primary rounded-full">
             {/* Slider Fill */}
             <div
               className="absolute top-0 left-0 w-full bg-blue-500 rounded-full"
@@ -80,13 +80,13 @@ function Section4({currentSection}) {
           </div>
         </div>
         {/* Overlay layer for the arrow image */}
-        <div className="absolute top-1/2 left-1/4 xl:-translate-x-5 xl:-translate-y-12 2xl:-translate-y-20 2xl:translate-x-16 transform -translate-y-20 translate-x-16 z-10">
+        <div className="absolute top-1/2 left-1/4 lg:translate-x-6 lg:-translate-y-10 xl:-translate-x-5 xl:-translate-y-12 2xl:-translate-y-20 2xl:translate-x-16 transform -translate-y-20 translate-x-16 z-10">
           <Image
             src="/images/d4.svg"
             width={350}
             height={350}
             alt="arrow"
-            className="2xl:w-[700px] 2xl:h-[700px] xl:w-[400px] xl:h-[400px]"
+            className="2xl:w-[700px] 2xl:h-[700px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px]"
           />
         </div>
       </div>

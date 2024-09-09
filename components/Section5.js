@@ -30,16 +30,16 @@ function Section5({currentSection}) {
               className={`${league.className} 2xl:space-y-28 details flex flex-col space-y-8 justify-center`}
             >
               <div>
-              <h1 className="text-primary font-medium 2xl:text-[180px] text-[64px] ">
+              <h1 className="text-primary font-medium 2xl:text-[180px] lg:text-[64px] ">
                   Step <span className="text-secondary">3</span>
                 </h1>
               </div>
 
-              <div className="h-[2px] w-[84px] bg-accent-blue 2xl:h-[7px] 2xl:w-[220px] -mt-3"></div>
-              <div className="para text-secondary text-2xl 2xl:text-[60px]">
+              <div className="h-[2px] w-[84px] bg-accent-blue 2xl:h-[7px] 2xl:w-[220px] lg:-mt-3"></div>
+              <div className="para text-secondary lg:text-2xl 2xl:text-[60px]">
               <ul className="customList">
 
-                  <li className="text-[#fcf1b6]  mb-5" >
+                  <li className="text-[#fcf1b6]  lg:mb-5" >
                     Smooth onboarding for the Tenant begins
                   </li>
                 
@@ -53,14 +53,14 @@ function Section5({currentSection}) {
                 alt="section1 image"
                 width={320}
                 height={500}
-                className="rounded-[50px] xl:w-[400px] xl:h-[850px] xl:rounded-[65px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
+                className="rounded-[50px] lg:h-[720px] lg:w-[340px] xl:w-[400px] xl:h-[850px] xl:rounded-[65px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
               />
             </div>
           </div>
         </div>
         <div className="slider basis-1/6 flex pl-8 items-center">
            {/* Slider Track */}
-           <div className="relative 2xl:w-[4px] 2xl:h-[450px] w-[2px] h-[283px] bg-primary rounded-full">
+           <div className="relative 2xl:w-[4px] lg:h-[200px] 2xl:h-[450px] w-[2px] h-[283px] bg-primary rounded-full">
             {/* Slider Fill */}
             <div
               className="absolute top-0 left-0 w-full bg-blue-500 rounded-full"
@@ -74,13 +74,13 @@ function Section5({currentSection}) {
           </div>
         </div>
          {/* Overlay layer for the arrow image */}
-         <div className="absolute top-1/2 left-1/4 xl:translate-x-1 xl:translate-y-4 2xl:translate-y-20 2xl:translate-x-32 transform -translate-y-2 translate-x-16 z-10">
+         <div className="absolute top-1/2 left-1/4 lg:-translate-x-5 lg:translate-y-2 xl:translate-x-1 xl:translate-y-4 2xl:translate-y-20 2xl:translate-x-32 transform -translate-y-2 translate-x-16 z-10">
           <Image
             src="/images/d4.svg"
             width={350}
             height={350}
             alt="arrow"
-            className="2xl:w-[700px] 2xl:h-[700px] xl:w-[400px] xl:h-[400px]"
+            className="2xl:w-[700px] 2xl:h-[700px] lg:h-[360px] lg:w-[360px] xl:w-[400px] xl:h-[400px]"
           />
         </div>
       </div>

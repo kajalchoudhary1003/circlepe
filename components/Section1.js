@@ -25,22 +25,22 @@ function Section1({currentSection}) {
         <div className="section basis-5/6 flex justify-center items-center">
           <div className="partition flex flex-row space-x-32">
             <div
-              className={`${league.className} details flex flex-col space-y-8 justify-center`}
+              className={`${league.className} details flex flex-col space-y-8 2xl:space-y-28 justify-center`}
             >
               <div>
-                <h1 className="text-primary font-medium text-[64px]">
+                <h1 className="text-primary font-medium text-[64px] 2xl:text-[180px]">
                   How does
                 </h1>
-                <h1 className="text-primary font-medium text-[64px] -mt-10">
+                <h1 className="text-primary font-medium text-[64px] 2xl:text-[180px] 2xl:-mt-28 -mt-10">
                   it <span className="text-secondary">Work</span>
                   <span className="text-accent-blue"> ?</span>
                 </h1>
               </div>
 
-              <div className="h-[2px] w-[84px] bg-accent-blue -mt-3"></div>
-              <div className="para text-secondary text-2xl">
+              <div className="h-[2px] 2xl:h-[7px] 2xl:w-[220px] w-[84px] bg-accent-blue -mt-3"></div>
+              <div className="para text-secondary text-2xl 2xl:text-[60px]">
                 <p>We make it possible in a quick and easy </p>
-                <p className="-mt-3">few steps process, takes max 5 mins</p>
+                <p className="-mt-3 2xl:mt-8">few steps process, takes max 5 mins</p>
               </div>
             </div>
             <div className="image">
@@ -49,14 +49,14 @@ function Section1({currentSection}) {
                 alt="section1 image"
                 width={320}
                 height={500}
-                className="rounded-[50px]"
+                className="rounded-[50px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
               />
             </div>
           </div>
         </div>
         <div className="slider basis-1/6 flex pl-8 items-center">
            {/* Slider Track */}
-           <div className="relative w-[2px] h-[283px] bg-primary rounded-full">
+           <div className="relative w-[2px] 2xl:w-[4px] 2xl:h-[450px] h-[283px] bg-primary rounded-full">
             {/* Slider Fill */}
             <div
               className="absolute top-0 left-0 w-full bg-blue-500 rounded-full"

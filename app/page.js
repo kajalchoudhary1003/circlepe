@@ -33,7 +33,7 @@ export default function Home() {
     // Debounce scroll events by adding a timeout
     setTimeout(() => {
       setIsScrolling(false); // Allow new scroll events after a delay
-    }, 300);
+    }, 600);
   };
 
   const handleWheel = (event) => {

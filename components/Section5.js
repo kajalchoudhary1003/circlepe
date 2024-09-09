@@ -14,6 +14,7 @@ function Section5({currentSection}) {
   const sliderHeight = `${(currentSection / 5) * 100}%`; // Assume 5 sections (0-5 index)
   return (
     <AnimatePresence mode="wait" initial={false}>
+
     <motion.div
     
     className={`h-screen w-full  bg-[radial-gradient(circle_at_top_left,_#202b39_5%,_#202b39_10%,_#161616_100%)]`}
@@ -26,18 +27,19 @@ function Section5({currentSection}) {
         <div className="section basis-5/6 flex justify-center items-center">
           <div className="partition flex flex-row space-x-16">
             <div
-              className={`${league.className} details flex flex-col space-y-8 justify-center`}
+              className={`${league.className} 2xl:space-y-28 details flex flex-col space-y-8 justify-center`}
             >
               <div>
-              <h1 className="text-primary font-medium text-[64px] ">
+              <h1 className="text-primary font-medium 2xl:text-[180px] text-[64px] ">
                   Step <span className="text-secondary">3</span>
                 </h1>
               </div>
 
-              <div className="h-[2px] w-[84px] bg-accent-blue -mt-3"></div>
-              <div className="para text-secondary text-2xl">
+              <div className="h-[2px] w-[84px] bg-accent-blue 2xl:h-[7px] 2xl:w-[220px] -mt-3"></div>
+              <div className="para text-secondary text-2xl 2xl:text-[60px]">
               <ul className="customList">
-                  <li className="text-[#fcf1b6] mb-5" >
+
+                  <li className="text-[#fcf1b6]  mb-5" >
                     Smooth onboarding for the Tenant begins
                   </li>
                 
@@ -51,14 +53,14 @@ function Section5({currentSection}) {
                 alt="section1 image"
                 width={320}
                 height={500}
-                className="rounded-[50px]"
+                className="rounded-[50px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
               />
             </div>
           </div>
         </div>
         <div className="slider basis-1/6 flex pl-8 items-center">
            {/* Slider Track */}
-           <div className="relative w-[2px] h-[283px] bg-primary rounded-full">
+           <div className="relative 2xl:w-[4px] 2xl:h-[450px] w-[2px] h-[283px] bg-primary rounded-full">
             {/* Slider Fill */}
             <div
               className="absolute top-0 left-0 w-full bg-blue-500 rounded-full"
@@ -72,13 +74,13 @@ function Section5({currentSection}) {
           </div>
         </div>
          {/* Overlay layer for the arrow image */}
-         <div className="absolute top-1/2 left-1/4 transform -translate-y-2 translate-x-16 z-10">
+         <div className="absolute top-1/2 left-1/4 2xl:translate-y-20 2xl:translate-x-32 transform -translate-y-2 translate-x-16 z-10">
           <Image
             src="/images/d4.svg"
             width={350}
             height={350}
             alt="arrow"
-            className=""
+            className="2xl:w-[700px] 2xl:h-[700px]"
           />
         </div>
       </div>

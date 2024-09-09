@@ -56,7 +56,7 @@ function Section3({currentSection}) {
                 alt="section1 image"
                 width={390}
                 height={690}
-                className="rounded-tl-[64px] rounded-tr-[64px] 2xl:w-[1000px] 2xl:h-[1900px] 2xl:rounded-tl-[170px] 2xl:rounded-tr-[170px]"
+                className="rounded-tl-[64px] xl:w-[540px] xl:rounded-tl-[92px] xl:rounded-tr-[92px] xl:h-[1050px] rounded-tr-[64px] 2xl:w-[1000px] 2xl:h-[1900px] 2xl:rounded-tl-[170px] 2xl:rounded-tr-[170px]"
               />
             </div>
           </div>
@@ -77,13 +77,13 @@ function Section3({currentSection}) {
           </div>
         </div>
         {/* Overlay layer for the arrow image */}
-        <div className="absolute top-1/2 left-1/4 transform 2xl:translate-x-14 2xl:-translate-y-16 -translate-y-32 translate-x-24 z-10">
+        <div className="absolute top-1/2 left-1/4 transform xl:-translate-x-8 xl:-translate-y-24 2xl:translate-x-14 2xl:-translate-y-16 -translate-y-32 translate-x-24 z-10">
           <Image
             src="/images/d3.svg"
             width={380}
             height={380}
             alt="arrow"
-            className="2xl:w-[800px] 2xl:h-[800px]"
+            className="2xl:w-[800px] 2xl:h-[800px] xl:w-[450px] xl:h-[450px]"
           />
         </div>
       </div>

@@ -53,7 +53,7 @@ function Section5({currentSection}) {
                 alt="section1 image"
                 width={320}
                 height={500}
-                className="rounded-[50px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
+                className="rounded-[50px] xl:w-[400px] xl:h-[850px] xl:rounded-[65px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
               />
             </div>
           </div>
@@ -74,13 +74,13 @@ function Section5({currentSection}) {
           </div>
         </div>
          {/* Overlay layer for the arrow image */}
-         <div className="absolute top-1/2 left-1/4 2xl:translate-y-20 2xl:translate-x-32 transform -translate-y-2 translate-x-16 z-10">
+         <div className="absolute top-1/2 left-1/4 xl:translate-x-1 xl:translate-y-4 2xl:translate-y-20 2xl:translate-x-32 transform -translate-y-2 translate-x-16 z-10">
           <Image
             src="/images/d4.svg"
             width={350}
             height={350}
             alt="arrow"
-            className="2xl:w-[700px] 2xl:h-[700px]"
+            className="2xl:w-[700px] 2xl:h-[700px] xl:w-[400px] xl:h-[400px]"
           />
         </div>
       </div>

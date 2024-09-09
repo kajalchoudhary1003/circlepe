@@ -49,7 +49,7 @@ function Section1({currentSection}) {
                 alt="section1 image"
                 width={320}
                 height={500}
-                className="rounded-[50px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
+                className="rounded-[50px] xl:w-[400px] xl:h-[810px] xl:rounded-[65px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
               />
             </div>
           </div>

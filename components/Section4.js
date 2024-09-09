@@ -59,7 +59,7 @@ function Section4({currentSection}) {
                 alt="section1 image"
                 width={400}
                 height={690}
-                className="rounded-bl-[66px] rounded-br-[66px] 2xl:w-[1000px] 2xl:h-[1800px] 2xl:rounded-bl-[180px] 2xl:rounded-br-[180px]"
+                className="rounded-bl-[66px] rounded-br-[66px] xl:w-[560px] xl:rounded-bl-[95px] xl:rounded-br-[95px] xl:h-[980px] 2xl:w-[1000px] 2xl:h-[1800px] 2xl:rounded-bl-[180px] 2xl:rounded-br-[180px]"
               />
             </div>
           </div>
@@ -80,13 +80,13 @@ function Section4({currentSection}) {
           </div>
         </div>
         {/* Overlay layer for the arrow image */}
-        <div className="absolute top-1/2 left-1/4 2xl:-translate-y-20 2xl:translate-x-16 transform -translate-y-20 translate-x-16 z-10">
+        <div className="absolute top-1/2 left-1/4 xl:-translate-x-5 xl:-translate-y-12 2xl:-translate-y-20 2xl:translate-x-16 transform -translate-y-20 translate-x-16 z-10">
           <Image
             src="/images/d4.svg"
             width={350}
             height={350}
             alt="arrow"
-            className="2xl:w-[700px] 2xl:h-[700px]"
+            className="2xl:w-[700px] 2xl:h-[700px] xl:w-[400px] xl:h-[400px]"
           />
         </div>
       </div>

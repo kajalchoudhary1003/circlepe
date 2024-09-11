@@ -56,7 +56,7 @@ function Section6({ currentSection }) {
                   alt="section1 image"
                   width={320}
                   height={500}
-                  className="lg:rounded-[50px] md:rounded-[40px] md:w-[270px] md:h-[570px] lg:w-[350px] lg:h-[760px] xl:w-[400px] xl:h-[850px] xl:rounded-[65px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
+                  className="lg:rounded-[50px] md:rounded-[40px] md:w-[270px] md:h-[570px] lg:w-[350px] lg:h-[760px] xl:w-[320px] xl:h-[670px] xl:rounded-[50px] 2xl:w-[720px] 2xl:h-[1480px] 2xl:rounded-[100px]"
                 />
               </div>
             </div>
@@ -77,13 +77,13 @@ function Section6({ currentSection }) {
             </div>
           </div>
           {/* Overlay layer for the arrow image */}
-          <div className="absolute top-1/2 left-1/4 md:-translate-x-8 md:translate-y-8 lg:translate-x-3 lg:translate-y-20 xl:-translate-x-1 xl:translate-y-16 2xl:translate-x-10 2xl:translate-y-20 transform translate-y-12 translate-x-24 z-10">
+          <div className="absolute top-1/2 left-1/4 md:-translate-x-8 md:translate-y-8 lg:translate-x-3 lg:translate-y-20 xl:translate-x-12 xl:translate-y-6 2xl:translate-x-10 2xl:translate-y-20 transform translate-y-12 translate-x-24 z-10">
             <Image
               src="/images/d4.svg"
               width={300}
               height={300}
               alt="arrow"
-              className="2xl:w-[700px] 2xl:h-[700px] lg:w-full lg:h-full md:w-[260px] md:h-[260px] xl:w-[380px] xl:h-[380px]"
+              className="2xl:w-[700px] 2xl:h-[700px] lg:w-full lg:h-full md:w-[260px] md:h-[260px] xl:w-[350px] xl:h-[350px]"
             />
           </div>
         </div>

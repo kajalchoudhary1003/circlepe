@@ -51,7 +51,7 @@ function Section1({ currentSection }) {
                   alt="section1 image"
                   width={320}
                   height={500}
-                  className="lg:rounded-[50px] lg:w-[310px] lg:h-[650px] md:rounded-[40px] md:w-[230px] md:h-[480px] xl:w-[400px] xl:h-[810px] xl:rounded-[65px] 2xl:w-[720px] 2xl:h-[1530px] 2xl:rounded-[100px]"
+                  className="lg:rounded-[50px] lg:w-[310px] lg:h-[650px] md:rounded-[40px] md:w-[230px] md:h-[480px] xl:w-[340px] xl:h-[720px] xl:rounded-[50px] 2xl:w-[720px] 2xl:h-[1530px] 2xl:rounded-[100px]"
                 />
               </div>
             </div>

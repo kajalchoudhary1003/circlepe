@@ -55,7 +55,7 @@ function Section3({ currentSection }) {
                   alt="section1 image"
                   width={390}
                   height={690}
-                  className="rounded-tl-[64px] md:h-[650px] md:rounded-tl-[58px] md:rounded-tr-[58px] md:w-[350px] lg:rounded-tl-[70px] lg:rounded-tr-[70px] lg:w-[420px] lg:h-[790px] xl:w-[540px] xl:rounded-tl-[92px] xl:rounded-tr-[92px] xl:h-[1050px] rounded-tr-[64px] 2xl:w-[1000px] 2xl:h-[1900px] 2xl:rounded-tl-[170px] 2xl:rounded-tr-[170px]"
+                  className="rounded-tl-[64px] md:h-[650px] md:rounded-tl-[58px] md:rounded-tr-[58px] md:w-[350px] lg:rounded-tl-[70px] lg:rounded-tr-[70px] lg:w-[420px] lg:h-[790px] xl:w-[420px] xl:rounded-tl-[68px] xl:rounded-tr-[68px] xl:h-[760px] rounded-tr-[64px] 2xl:w-[1000px] 2xl:h-[1900px] 2xl:rounded-tl-[170px] 2xl:rounded-tr-[170px]"
                 />
               </div>
             </div>
@@ -76,13 +76,13 @@ function Section3({ currentSection }) {
             </div>
           </div>
           {/* Overlay layer for the arrow image */}
-          <div className="absolute top-1/2 left-1/4 transform md:-translate-x-5 md:-translate-y-20 lg:translate-x-1 lg:-translate-y-20 xl:-translate-x-8 xl:-translate-y-24 2xl:translate-x-14 2xl:-translate-y-16 -translate-y-32 translate-x-24 z-10">
+          <div className="absolute top-1/2 left-1/4 transform md:-translate-x-5 md:-translate-y-20 lg:translate-x-1 lg:-translate-y-20 xl:translate-x-16 xl:-translate-y-40 2xl:translate-x-14 2xl:-translate-y-16 -translate-y-32 translate-x-24 z-10">
             <Image
               src="/images/d3.svg"
               width={380}
               height={380}
               alt="arrow"
-              className="2xl:w-[800px] 2xl:h-[800px] lg:w-[390px]  lg:h-[390px] md:w-[300px] md:h-[300px] xl:w-[450px] xl:h-[450px]"
+              className="2xl:w-[800px] 2xl:h-[800px] lg:w-[390px]  lg:h-[390px] md:w-[300px] md:h-[300px] xl:w-[420px] xl:h-[420px]"
             />
           </div>
         </div>
